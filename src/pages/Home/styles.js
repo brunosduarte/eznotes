@@ -44,17 +44,19 @@ export const Menu = styled.ul`
   > li { 
     margin-bottom: 24px;
   }
+`;
 
-`
 export const Search = styled.div`
   grid-area: search;
   padding: 32px 32px 0;
+`;
 
-`
 export const Content = styled.div` 
   grid-area: content;
+  padding: 0 64px;
+  overflow-y: auto;
+`;
 
-`
 export const NewNote = styled.button` 
   grid-area: newnote;
 
@@ -68,5 +70,4 @@ export const NewNote = styled.button`
   svg {
     margin-right: 8px;
   }
-
-`
+`;
