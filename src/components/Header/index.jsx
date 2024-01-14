@@ -5,15 +5,15 @@ import { Container, Profile, Logout } from './styles'
 export function Header() {
   return (
     <Container>
-      <Profile>
+      <Profile to="/profile">
         <img 
           src="https://github.com/brunosduarte.png"
           alt="foto"
         />
 
         <div>
-          <span>benvenido</span>
-          <strong>BruSd</strong>
+          <span>Bienvenido</span>
+          <strong>Bruno D</strong>
         </div>
       </Profile>
 
