@@ -66,7 +66,7 @@ export function Details() {
                   {
                     data.links.map(link => (
                       <li key={String(link.id)}>
-                        <a href={link.url} target="_blank">
+                        <a href={link.url} target="_blank" rel="noreferrer">
                           {link.url}
                         </a>
                       </li>
