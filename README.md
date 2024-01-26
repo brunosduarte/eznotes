@@ -1,14 +1,14 @@
 <p align="center">
   <img alt="Notes" src=".github/logo.svg" width="15%">
 </p>
-   <h1 align="center"> Notes </h1>
+   <h1 align="center"> EZ Notes </h1>
  </p>
 <br />
 <p align="center"> 
-   <img src="https://img.shields.io/github/languages/count/brunosduarte/notes" alt="Languages">
-	<img src="https://img.shields.io/github/repo-size/brunosduarte/notes " alt="Repo Size"> 
-  	<a href="https://github.com/brunosduarte/notes/commits/master"> 
-   		<img src="https://img.shields.io/github/last-commit/brunosduarte/notes" alt="Last Commit"> 
+   <img src="https://img.shields.io/github/languages/count/brunosduarte/eznotes" alt="Languages">
+	<img src="https://img.shields.io/github/repo-size/brunosduarte/eznotes " alt="Repo Size"> 
+  	<a href="https://github.com/brunosduarte/eznotes/commits/master"> 
+   		<img src="https://img.shields.io/github/last-commit/brunosduarte/eznotes" alt="Last Commit"> 
  	</a> 
   	<a href="https://opensource.org/licenses/MIT"> 
    		<img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT"> 
@@ -29,10 +29,20 @@
 
 ## 📋 Project
 
-Notes.
+A web application where users can register and create organized notes on specific subjects. It allows adding the titles descriptions, links, and tags for each note and also includes user profile editing.
 
 ### 🚀 Technologies
 
+
+axios
+bcrypt
+express
+jsonwebtoken
+jest
+knex
+multer
+pm2
+sqlite
 - [OpenAI][openai]
 - [FFmpeg][ffmpeg]
 - [Radix][radix]
@@ -50,22 +60,17 @@ Notes.
 ##### 💻 frontend:
 
 <p align="center"> 
-  <img alt="notes" src=".github/web.png" width="100%">
+  <img alt="eznotes" src=".github/web.png" width="100%">
 </p>
 
 ## 📦 Instalation
 
-To clone and run this application, you will need [Git](gitlink), [NodeJS v18.17.1][nodejs] or higher + [npm v9.17.1][npm] or higher, and [PNPm 8.7.5][pnpm] installed on your computer. In your terminal, run:
+To clone and run this application, you will need [Git][git], [NodeJS v18.17.1][nodejs] or higher + [npm v9.17.1][npm] or higher, and [PNPm 8.7.5][pnpm] installed on your computer. In your terminal, run:
 
 
 ```bash
 # Cloning repo
-$ git clone https://github.com/brunosduarte/notes.git notes
-```
-
-```bash
-# Installing pnpm
-$ npm install -g pnpm
+$ git clone https://github.com/brunosduarte/eznotes.git eznotes
 ```
 
 ```bash
@@ -76,16 +81,6 @@ $ cd server
 
 # Install the dependencies
 $ npm i
-
-# Create migrations
-$ pnpm prisma migrate dev
-
-
-# Note: After running the command above, you will be prompted to enter the migration name. You can use the following name: "create videos and prompts"
-
-----------------------------------------------------------------------------------------------------------------------------------------
-# Before running the API, change the .env.example to .env and add your OpenAI API key to the .env file
-----------------------------------------------------------------------------------------------------------------------------------------
 
 # Run the API
 $ npm run dev
