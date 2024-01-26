@@ -22,10 +22,10 @@ const [password, setPassword] = useState("")
     return(
         <Container>
             <Form>
-                <h1>Notes</h1>
-                <p>Aplicação para salvar e gerenciar seus links úteis.</p>
+                <h1>Ez Notes</h1>
+                <p>Manage your links</p>
 
-                <h2>Faça seu login</h2>
+                <h2>Login</h2>
 
                 <Input 
                 placeholder="E-mail" 
@@ -34,15 +34,15 @@ const [password, setPassword] = useState("")
                 onChange={e => setEmail(e.target.value)}
                 />
                 <Input 
-                placeholder="Senha" 
+                placeholder="Password" 
                 type="password" 
                 icon={FiLock}
                 onChange={e => setPassword(e.target.value)}
                 />
 
-                <Button title="Entrar" onClick={handleSignIn}/>
+                <Button title="Sign In" onClick={handleSignIn}/>
 
-                <Link to="/register">Criar Conta</Link>
+                <Link to="/register">Sign Up</Link>
             </Form>
 
             <Background/>

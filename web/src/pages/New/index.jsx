@@ -53,15 +53,15 @@ export function New() {
     async function handleNewNote() {
 
         if (!title) {
-            return alert("Digite o título da nota.")
+            return alert("Type the title of the note.")
         }
 
         if (newLink) {
-            return alert("Você deixou uma link no campo para adicionar, mas não clicou para adicionar.")
+            return alert("You left a link field without saving")
         }
         
         if (newTag) {
-            return alert("Você deixou uma tag no campo para adicionar, mas não clicou para adicionar.")
+            return alert("You left a tag field without saving")
         }
 
 
@@ -72,7 +72,7 @@ export function New() {
             links
         });
 
-        alert("Nota Criada com sucesso!");
+        alert("Note created successfully!");
         navigate(-1);
     }
 
@@ -82,7 +82,7 @@ export function New() {
             <main>
                 <Form>
                     <header>
-                        <h1>Criar Nota</h1>
+                        <h1>Create note</h1>
                         <ButtonText 
                             title="Voltar"
                             onClick={handleBack}
@@ -90,16 +90,16 @@ export function New() {
                     </header>
 
                     <Input 
-                    placeholder="Titulo"
+                    placeholder="Title"
                     onChange={e => setTitle(e.target.value)}
                     />
 
                     <Textarea 
-                    placeholder="Observações"
+                    placeholder="Comments"
                     onChange={e => setDescription(e.target.value)}
                     />
 
-                    <Section title="Links úteis">
+                    <Section title="Useful Links">
                         {
                             links.map((link, index) => (
                                 <NoteItem 
@@ -111,14 +111,14 @@ export function New() {
                         }
                         <NoteItem 
                         isNew 
-                        placeholder="Novo Link"
+                        placeholder="New Link"
                         value={newLink}
                         onChange={e => setNewLink(e.target.value)}
                         onClick={handleAddLink}
                         />
                     </Section>
 
-                    <Section title="Marcadores">
+                    <Section title="Favorites">
                         <div className="tags">
                             {
                                 tags.map((tag, index) => (
@@ -132,7 +132,7 @@ export function New() {
 
                         <NoteItem 
                         isNew 
-                        placeholder="Nova Tag"
+                        placeholder="New Tag"
                         onChange={e => setNewTag(e.target.value)}
                         value={newTag}
                         onClick={handleAddTag}
@@ -141,7 +141,7 @@ export function New() {
                     </Section>
 
                     <Button 
-                    title="Salvar"
+                    title="Save"
                     onClick={handleNewNote}
                     />
                 </Form>

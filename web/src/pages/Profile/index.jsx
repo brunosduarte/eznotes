@@ -65,7 +65,7 @@ export function Profile() {
                 <Avatar>
                     <img
                         src={avatar}
-                        alt="Foto do usuário"
+                        alt="user photo"
                     />
 
                     <label htmlFor="avatar">
@@ -79,7 +79,7 @@ export function Profile() {
                 </Avatar>
 
                 <Input
-                placeholder="Nome"
+                placeholder="Name"
                 type="text"
                 icon={FiUser}
                 value={name}
@@ -95,20 +95,20 @@ export function Profile() {
                 />
 
                 <Input
-                placeholder="Senha Atual"
+                placeholder="Current password"
                 type="password"
                 icon={FiLock}
                 onChange={e => setPasswordOld(e.target.value)}
                 />
 
                 <Input
-                placeholder="Nova Senha"
+                placeholder="New password"
                 type="password"
                 icon={FiLock}
                 onChange={e => setPasswordNew(e.target.value)}
                 />
 
-                <Button title="Salvar" onClick={handleUpdate}/>
+                <Button title="Save" onClick={handleUpdate}/>
             </Form>
         </Container>
     )

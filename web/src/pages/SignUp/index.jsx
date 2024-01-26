@@ -19,18 +19,18 @@ export function SignUp() {
 
     function handleSignUp() {
         if (!name || !email || !password) {
-            return alert("Preencha todos os campos!")
+            return alert("Fill all fields!")
         }
 
         api.post("/users", {name, email, password})
-        .then(() => {alert("Usuário cadastrado com sucesso!");
+        .then(() => {alert("User registered successfully!");
         navigate("/");
         })
         .catch( error => {
             if (error.response) {
                 alert(error.response.data.message);
             }else {
-                alert("Não foi possível cadastrar")
+                alert("Not possible to register")
             }
         })
     }
@@ -39,13 +39,13 @@ export function SignUp() {
         <Container>
         <Background/>
             <Form>
-                <h1>Notes</h1>
-                <p>Aplicação para salvar e gerenciar seus links úteis.</p>
+                <h1>Ez Notes</h1>
+                <p>Manage your links</p>
 
-                <h2>Crie sua conta</h2>
+                <h2>Create your account</h2>
 
                 <Input 
-                placeholder="Nome" 
+                placeholder="Name" 
                 type="text" 
                 icon={FiUser}
                 onChange = {e => setName(e.target.value)}
@@ -59,15 +59,15 @@ export function SignUp() {
                 />
 
                 <Input 
-                placeholder="Senha" 
+                placeholder="Password" 
                 type="password" 
                 icon={FiLock}
                 onChange = {e => setPassword(e.target.value)}
                 />
 
-                <Button title="Cadastrar" onClick={handleSignUp}/>
+                <Button title="Register" onClick={handleSignUp}/>
 
-                <Link to="/">Voltar para o login</Link>
+                <Link to="/">back to login</Link>
             </Form>
         </Container>
     );

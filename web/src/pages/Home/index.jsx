@@ -60,7 +60,7 @@ export function Home(){
     return(
         <Container>
             <Brand>
-            <h1>Notes</h1>
+            <h1>Ez Notes</h1>
             </Brand>
 
             <Header />
@@ -68,7 +68,7 @@ export function Home(){
             <Menu>
                 <li>
                     <ButtonText 
-                    title="Todos" 
+                    title="All" 
                     onClick={() => handleTagSelected("all")}
                     isActive={tagsSelected.length === 0}
                 />
@@ -88,14 +88,14 @@ export function Home(){
 
             <Search>
                 <Input
-                    placeholder= "Pesquisar pelo título"
+                    placeholder= "Search by title"
                     onChange={(e) => setSearch(e.target.value)}
                     icon={FiSearch}
                 />
             </Search>
 
             <Content>
-                <Section title="Minhas Notas">
+                <Section title="My notes">
                     {
                         notes.map(note => (
                             <Note 
@@ -110,7 +110,7 @@ export function Home(){
 
             <NewNote to="/new">
                 <FiPlus />
-                Criar Nota
+                New note
             </NewNote>
 
         </Container>
