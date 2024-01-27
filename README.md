@@ -30,16 +30,16 @@ A web application where users can register and create organized notes on specifi
 
 ### 🚀 Technologies
 
-<a href="https://vitejs.org/" target="_blank"> <img src="https://img.shields.io/badge/vite?style=flat-square&logo=vite.js&logoColor=white" alt="Vite"> </a>
-<a href="https://nodejs.org/" target="_blank"> <img src="https://img.shields.io/badge/nodejs?style=flat-square&logo=nodejs.js&logoColor=white" alt="NodeJS"> </a>
-<a href="https://www.jest.com/" target="_blank"> <img src="https://img.shields.io/badge/jest?style=flat-square&logo=Jest&logoColor=white" alt="Jest"> </a>
-<a href="https://pm2.io" target="_blank"> <img src="https://img.shields.io/badge/pm2?style=flat-square&logo=pm2&logoColor=white" alt="PM2"> </a>
-<a href="https://expressjs" target="_blank"> <img src="https://img.shields.io/badge/expressjs?style=flat-square&logo=expressjs&logoColor=white" alt="ExpressJS"> </a>
-<a href="https://knexjs.org" target="_blank"> <img src="https://img.shields.io/badge/knex?style=flat-square&logo=knex&logoColor=white" alt="Knex.js"> </a>
-<a href="https://www.sqlite.org" target="_blank"> <img src="https://img.shields.io/badge/sqlite?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> </a>
-<a href="https:/npmjs.com/package/multer" target="_blank"> <img src="https://img.shields.io/badge/multer?style=flat-square&logo=multer&logoColor=white" alt="Multer"> </a>
-<a href="https://jwt.io" target="_blank"> <img src="https://img.shields.io/badge/jwt?style=flat-square&logo=jwt&logoColor=white" alt="JWT"> </a>
-<a href="https://axios-http.com" target="_blank"> <img src="https://img.shields.io/badge/axios?style=flat-square&logo=axios&logoColor=white" alt="Axios"> </a>
+<a href="https://vitejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Vite?style=flat-square&logo=vite&logoColor=white" alt="Vite"> </a>
+<a href="https://nodejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Node.js?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS"> </a>
+<a href="https://www.jest.com/" target="_blank"> <img src="https://img.shields.io/badge/Jest?style=flat-square&logo=jest&logoColor=white" alt="Jest"> </a>
+<a href="https://pm2.io" target="_blank"> <img src="https://img.shields.io/badge/PM2?style=flat-square&logo=pm2&logoColor=white" alt="PM2"> </a>
+<a href="https://expressjs.com" target="_blank"> <img src="https://img.shields.io/badge/Expressjs?style=flat-square&logo=express&logoColor=white" alt="ExpressJS"> </a>
+<a href="https://knexjs.org" target="_blank"> <img src="https://img.shields.io/badge/Knex.js?style=flat-square&logo=knexdotjs&logoColor=white" alt="Knex.js"> </a>
+<a href="https://www.sqlite.org" target="_blank"> <img src="https://img.shields.io/badge/SQLite?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> </a>
+<a href="https:/npmjs.com/package/multer" target="_blank"> <img src="https://img.shields.io/badge/Müller?style=flat-square&logo=muller&logoColor=white" alt="Multer"> </a>
+<a href="https://jwt.io" target="_blank"> <img src="https://img.shields.io/badge/JSON_Web_Tokens?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"> </a>
+<a href="https://axios-http.com" target="_blank"> <img src="https://img.shields.io/badge/Axios?style=flat-square&logo=axios&logoColor=white" alt="Axios"> </a>
 
 ## 📷 Preview
 
