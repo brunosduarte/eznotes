@@ -28,9 +28,7 @@ A web application where users can register and create organized notes on specifi
 ### 🚀 Technologies
 
 [![React.js](https://img.shields.io/badge/React.js-gray?logo=React)](https://react.dev)
-[![React Native](https://img.shields.io/badge/React_Native-gray?logo=React&logoColor=purple)](https://react.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-gray?logo=Node.js)](https://nodejs.org)
-[![Expo](https://img.shields.io/badge/Expo-gray?logo=Expo)](https://expo.dev)
 [![Vite](https://img.shields.io/badge/Vite-gray?logo=Vite)](https://vitejs.org)
 [![Jest](https://img.shields.io/badge/Jest-gray?logo=Jest)](https://www.jest.com)
 [![PM2](https://img.shields.io/badge/PM2-gray?logo=PM2)](https://pm2.io)
