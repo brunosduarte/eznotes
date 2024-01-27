@@ -1,8 +1,5 @@
-<p align="center">
-  <img alt="EZNotes" src=".github/logo.svg" width="15%">
-</p>
-   <h1 align="center">EZ Notes</h1>
- </p>
+<h1 align="center">EZ Notes</h1>
+
 <br />
 <p align="center"> 
    <img src="https://img.shields.io/github/languages/count/brunosduarte/eznotes" alt="Languages">
@@ -30,23 +27,22 @@ A web application where users can register and create organized notes on specifi
 
 ### 🚀 Technologies
 
-<a href="https://vitejs.org/" target="_blank"> <img src="https://img.shields.io/badge/vite?style=flat-square&logo=vitejs&logoColor=white" alt="Vite"> </a>
-<a href="https://nodejs.org/" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS"> </a>
-<a href="https://www.jest.com/" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=jest&logoColor=white" alt="Jest"> </a>
-<a href="https://pm2.io" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=pm2&logoColor=white" alt="PM2"> </a>
-<a href="https://expressjs.com" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=express&logoColor=white" alt="ExpressJS"> </a>
-<a href="https://knexjs.org" target="_blank"> <img src="https://img.shields.io//npm/v/npm.svg?style=flat-square&logo=knexdotjs&logoColor=white" alt="Knex.js"> </a>
-<a href="https://www.sqlite.org" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> </a>
-<a href="https:/npmjs.com/package/multer" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=muller&logoColor=white" alt="Multer"> </a>
-<a href="https://jwt.io" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"> </a>
-<a href="https://axios-http.com" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=axios&logoColor=white" alt="Axios"> </a>
+[![Vite](https://img.shields.io/badge/Vite-blue?logo=Vite)](https://vitejs.org)
+[![Node.js](https://img.shields.io/badge/Node.js-blue?logo=Node.js)](https://nodejs.org)
+[![Jest](https://img.shields.io/badge/Jest-darkgray?logo=Jest)](https://www.jest.com)
+[![PM2](https://img.shields.io/badge/PM2-gray?logo=PM2)](https://pm2.io)
+[![Knex](https://img.shields.io/badge/Knex-gray?logo=Knex.js)](https://knexjs.org)
+[![SQLite](https://img.shields.io/badge/SQLite-gray?logo=SQLite)](https://www.sqlite.org)
+[![Multer](https://img.shields.io/badge/Multer-gray?logo=Müller)](https:/npmjs.com/package/multer)
+[![JWT](https://img.shields.io/badge/JWT-gray?logo=JSON+Web+Tokens)](jwt.io)
+[![Axios](https://img.shields.io/badge/Axios-gray?logo=Axios)](https://axios-http.com)
 
 ## 📷 Preview
 
 ##### 💻 frontend:
 
 <p align="center"> 
-  <img alt="EZnotes" src=".github/web.png" width="100%">
+  <img alt="EZnotes" src="cover.png" width="100%">
 </p>
 
 ## 📦 Instalation
