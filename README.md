@@ -30,7 +30,7 @@ A web application where users can register and create organized notes on specifi
 
 ### 🚀 Technologies
 
-<a href="https://vitejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Vite?style=flat-square&logo=vite&logoColor=white" alt="Vite"> </a>
+<a href="https://vitejs.org/" target="_blank"> <img src="https://img.shields.io/badge/vite?style=flat-square&logo=vitejs&logoColor=white" alt="Vite"> </a>
 <a href="https://nodejs.org/" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS"> </a>
 <a href="https://www.jest.com/" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=jest&logoColor=white" alt="Jest"> </a>
 <a href="https://pm2.io" target="_blank"> <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square&logo=pm2&logoColor=white" alt="PM2"> </a>
