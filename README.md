@@ -1,7 +1,7 @@
 <p align="center">
-  <img alt="Notes" src=".github/logo.svg" width="15%">
+  <img alt="EZNotes" src=".github/logo.svg" width="15%">
 </p>
-   <h1 align="center"> EZ Notes </h1>
+   <h1 align="center">EZ Notes</h1>
  </p>
 <br />
 <p align="center"> 
@@ -15,9 +15,7 @@
   	</a> 
 </p>
 
-
 ## 🗂 Contents
-
 
 - 📋 [Project](#-project)
   - 🚀 [Technologies](#-technologies)
@@ -26,47 +24,34 @@
 - ⚖️ [License](#%EF%B8%8F-license)
 - 📫 [Contact](#-contact)
 
-
 ## 📋 Project
 
 A web application where users can register and create organized notes on specific subjects. It allows adding the titles descriptions, links, and tags for each note and also includes user profile editing.
 
 ### 🚀 Technologies
 
-
-axios
-bcrypt
-express
-jsonwebtoken
-jest
-knex
-multer
-pm2
-sqlite
-- [OpenAI][openai]
-- [FFmpeg][ffmpeg]
-- [Radix][radix]
-- [TailwindCSS][tailwindcss]
-- [TypeScript][typescript]
-- [NodeJS][nodejs]
-- [Fastify][Fastify]
-- [Zod][zod]
-- [Prisma][prisma]
-- [Axios][axios]
-
+<a href="https://vitejs.org/" target="_blank"> <img src="https://img.shields.io/badge/vite?style=flat-square&logo=vite.js&logoColor=white" alt="Vite"> </a>
+<a href="https://nodejs.org/" target="_blank"> <img src="https://img.shields.io/badge/nodejs?style=flat-square&logo=nodejs.js&logoColor=white" alt="NodeJS"> </a>
+<a href="https://www.jest.com/" target="_blank"> <img src="https://img.shields.io/badge/jest?style=flat-square&logo=Jest&logoColor=white" alt="Jest"> </a>
+<a href="https://pm2.io" target="_blank"> <img src="https://img.shields.io/badge/pm2?style=flat-square&logo=pm2&logoColor=white" alt="PM2"> </a>
+<a href="https://expressjs" target="_blank"> <img src="https://img.shields.io/badge/expressjs?style=flat-square&logo=expressjs&logoColor=white" alt="ExpressJS"> </a>
+<a href="https://knexjs.org" target="_blank"> <img src="https://img.shields.io/badge/knex?style=flat-square&logo=knex&logoColor=white" alt="Knex.js"> </a>
+<a href="https://www.sqlite.org" target="_blank"> <img src="https://img.shields.io/badge/sqlite?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> </a>
+<a href="https:/npmjs.com/package/multer" target="_blank"> <img src="https://img.shields.io/badge/multer?style=flat-square&logo=multer&logoColor=white" alt="Multer"> </a>
+<a href="https://jwt.io" target="_blank"> <img src="https://img.shields.io/badge/jwt?style=flat-square&logo=jwt&logoColor=white" alt="JWT"> </a>
+<a href="https://axios-http.com" target="_blank"> <img src="https://img.shields.io/badge/axios?style=flat-square&logo=axios&logoColor=white" alt="Axios"> </a>
 
 ## 📷 Preview
 
 ##### 💻 frontend:
 
 <p align="center"> 
-  <img alt="eznotes" src=".github/web.png" width="100%">
+  <img alt="EZnotes" src=".github/web.png" width="100%">
 </p>
 
 ## 📦 Instalation
 
 To clone and run this application, you will need [Git][git], [NodeJS v18.17.1][nodejs] or higher + [npm v9.17.1][npm] or higher, and [PNPm 8.7.5][pnpm] installed on your computer. In your terminal, run:
-
 
 ```bash
 # Cloning repo
@@ -102,27 +87,15 @@ $ npm i
 $ npm run dev
 ```
 
-
 ## ⚖️ License
 
 This project is under license. [MIT](LICENSE).
-
 
 ## 📫 Contact
 
 by [**Bruno Duarte**](https://www.linkedin.com/in/brunosduarte/) 🚀
 
-
+[git]: https://git.scm.com
 [nodejs]: https://nodejs.org/
-[PNPm]: https://pnpm.io/pt/
 [npm]: https://www.npmjs.com/
-[typescript]: https://www.typescriptlang.org/
-[openai]: https://www.openai.com/
-[ffmpeg]: https://www.ffmpeg.com/
-[radix]: https://www.radix.com/
-[tailwindcss]: https://www.tailwindcss.com/
-[fastify]: https://www.fastify.com/
-[zod]: https://www.zod.com/
-[prisma]: https://www.prisma.com/
-[axios]: https://www.axios.com/
-
+[PNPm]: https://pnpm.io/pt/
